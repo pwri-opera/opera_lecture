@@ -31,6 +31,8 @@ install(
 
 install(PROGRAMS
   src/lidar_tf_listener.py
+  src/action_client_node.py
+  src/action_server_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
